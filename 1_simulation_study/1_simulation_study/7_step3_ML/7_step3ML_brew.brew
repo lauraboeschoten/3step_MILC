@@ -1,0 +1,45 @@
+  //LG5.0//
+ version = 5.0  
+
+ infile 'F:/datapackage_threestepMILC/1_simulation_study/4_impute/files_200_7_1_7310586/imputations_<%=s%>.txt' 
+ model  
+title 'latent class multiple imputation step 3';
+options
+   maxthreads=all;
+   algorithm 
+      tolerance=1e-008 emtolerance=0.01 emiterations=500 nriterations=500;
+   startvalues
+      seed=0 sets=16 tolerance=1e-005 iterations=500;
+   bayes
+      categorical=1 variances=1 latent=1 poisson=1;
+   montecarlo
+      seed=0 sets=0 replicates=500 tolerance=1e-008;
+   quadrature  nodes=10;
+   missing  excludeall;
+   output      
+      parameters=first profile standarderrors probmeans=posterior estimatedvalues=model;
+   outfile  'F:\datapackage_threestepMILC\1_simulation_study\7_step3_ML\step3ML_200_7_1_7310586\LC3step<%=s%><%=j%>.dat' classification;
+variables
+   dependent <%=bcname%> nominal, q nominal, z nominal;
+   latent
+      x 2 nominal, lq 2 nominal, lz 2 nominal;
+equations
+      <%=bcname%> <- 1 + (a~wei)x;
+      lz <- 1 + (b~wei)x;
+      q <- (c~wei)lq;
+      z <- (c~wei)lz;
+      lq <- 1 + x;
+      lq <-> lz;
+      a={<%=a%>};
+      b={1 0 1 1};
+      c={1 0 0 1};
+      { -0.6931472
+      <%=zcoef%>
+      0 <%=qcoef%>
+      <%=covar%>}
+end model
+
+
+
+
+
