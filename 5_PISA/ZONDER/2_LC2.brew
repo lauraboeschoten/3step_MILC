@@ -1,0 +1,55 @@
+  //LG5.0//
+ version = 5.0  
+
+ infile 'pisa.txt' 
+ model  
+title 'latent class multiple imputation';
+
+options
+   algorithm 
+      tolerance=1e-008 emtolerance=0,01 emiterations=5000 nriterations=5000;
+   startvalues
+      seed=0 sets=100 tolerance=1e-005 iterations=500;
+   bayes
+      categorical=0 variances=0 latent=0 poisson=0;
+   montecarlo
+      seed=0 replicates=500 tolerance=1e-008;
+   quadrature  nodes=10;
+   missing  includeall;
+   output      
+      parameters=effect profile probmeans=posterior estimatedvalues=model;
+   outfile  '2_LC2.txt' classification;
+variables
+   caseweight b2;
+   dependent  CM033Q01S nominal, CM474Q01S nominal, CM155Q01S nominal, CM155Q04S nominal, CM411Q01S nominal, CM411Q02S nominal, 
+              CM803Q01S nominal, CM442Q02S nominal, DM462Q01C nominal, CM034Q01S nominal, CM305Q01S nominal, CM496Q01S nominal, 
+              CM496Q02S nominal, CM423Q01S nominal, DM406Q01C nominal, DM406Q02C nominal, CM603Q01S nominal, CM571Q01S nominal, 
+              CM564Q01S nominal, CM564Q02S nominal;
+   independent 
+             ST006Q04TA nominal, ST008Q04TA nominal, V1 nominal;
+   latent
+             theta ordinal 2 scores =(0 1);
+equations
+theta <- 1;
+CM033Q01S <- 1 + theta;
+CM474Q01S <- 1 + theta;
+CM155Q01S <- 1 + theta;
+CM155Q04S <- 1 + theta;
+CM411Q01S <- 1 + theta;
+CM411Q02S <- 1 + theta;
+CM803Q01S <- 1 + theta;
+CM442Q02S <- 1 + theta;
+DM462Q01C <- 1 + theta;
+CM034Q01S <- 1 + theta;
+CM305Q01S <- 1 + theta;
+CM496Q01S <- 1 + theta;
+CM496Q02S <- 1 + theta;
+CM423Q01S <- 1 + theta;
+DM406Q01C <- 1 + theta;
+DM406Q02C <- 1 + theta;
+CM603Q01S <- 1 + theta;
+CM571Q01S <- 1 + theta;
+CM564Q01S <- 1 + theta;
+CM564Q02S <- 1 + theta;
+end model
+

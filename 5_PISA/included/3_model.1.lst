@@ -1,0 +1,754 @@
+pisa.txt
+File name:	pisa.txt	
+File size:	31008 bytes	141 records							
+File date:	2017-Dec-06	10:33:27							
+		LL	BIC(LL)	Npar	L²	df	p-value	Class.Err.	
+latent class multiple imputation	Syntax (1)	-1988.3435	4417.1265	89	3268.8646	52	2.1e-655	0.0318	
+Model2	Syntax (2)								
+latent class multiple imputation - L² = 3268.8646
+Syntax (1) Model	
+				
+Number of cases	141			
+Number of parameters (Npar)	89			
+Random Seed	144979			
+Best Start Seed	144979			
+				
+Chi-squared Statistics				
+Degrees of freedom (df)	52	p-value		
+L-squared (L²)	3268.8646	2.1e-655		
+X-squared	4.806151309e+021	0.0e-2147483647		
+Cressie-Read	5.126301437e+014	0.0e-2147483647		
+BIC (based on L²)	3011.5291			
+AIC (based on L²)	3164.8646			
+AIC3 (based on L²)	3112.8646			
+CAIC (based on L²)	2959.5291			
+SABIC (based on L²)	3176.0554			
+Dissimilarity Index	0.9999	 		
+				
+Log-likelihood Statistics				
+Log-likelihood (LL)	-1988.3435			
+Log-prior	0.0000			
+Log-posterior	-1988.3435			
+BIC (based on LL)	4417.1265			
+AIC (based on LL)	4154.6869			
+AIC3 (based on LL)	4243.6869			
+CAIC (based on LL)	4506.1265			
+SABIC (based on LL)	4135.5333			
+				
+				
+Classification Statistics	theta			
+Classification errors	0.0318			
+Reduction of errors (Lambda)	0.9231			
+Entropy R-squared	0.8870			
+Standard R-squared	0.9040			
+Classification log-likelihood	-1999.1502			
+Entropy	10.8068			
+CLC	3998.3004			
+AWE	5146.1797			
+ICL-BIC	4438.7401			
+				
+theta  Classification Table	Modal			
+Latent	1	2	Total	
+1	81.0480	1.5372	82.5852	
+2	2.9520	55.4628	58.4148	
+Total	84.0000	57.0000	141.0000	
+				
+theta  Classification Table	Proportional			
+Latent	1	2	Total	
+1	79.3017	3.2836	82.5852	
+2	3.2836	55.1312	58.4148	
+Total	82.5852	58.4148	141.0000	
+				
+Model Classification Statistics	theta			
+Classification errors	0.3884			
+Reduction of errors (Lambda)	0.0624			
+Entropy R-squared	0.0236			
+Standard R-squared	0.0321			
+				
+Files				
+Infile	pisa.txt	
+				
+Options				
+threads	4			
+algorithm				
+tolerance	1e-008			
+emtolerance	0.01			
+emiterations	5000			
+nriterations	5000			
+algorithm	NR			
+MstepNR	no			
+startvalues				
+seed	0			
+sets	10			
+tolerance	1e-005			
+iterations	5000			
+bayes				
+categorical	0			
+variances	0			
+latent	0			
+poisson	0			
+quadrature				
+nodes	10			
+missing	includeall			
+output				
+parameters	effect			
+standard errors	no			
+identification	no			
+validation LL	no			
+sample size BIC	     141			
+predictionstatistics	no			
+outfile				
+file name	2_LC1.txt	
+classification	posterior			
+prediction	no			
+simulation	no			
+seed	0			
+individualcoefficients	no			
+id	no			
+				
+Variable Detail				
+Case Weight	b1			
+Latent				
+theta	Ord	Case	2	
+ 	Scores	 		
+ 	0.0000	 		
+ 	1.0000	 		
+ 				
+Dependent				
+CM033Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM474Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM155Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM155Q04S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM411Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM411Q02S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM803Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM442Q02S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+DM462Q01C	Nominal	5		
+01-Nocredit	01-Nocredit			
+02-Nocredit	02-Nocredit			
+12-Partialcredit	12-Partialcredit			
+21-Fullcredit	21-Fullcredit			
+NA	NA			
+CM034Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM305Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM496Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM496Q02S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM423Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+DM406Q01C	Nominal	3		
+0-Nocredit	0-Nocredit			
+1-Fullcredit	1-Fullcredit			
+NA	NA			
+DM406Q02C	Nominal	3		
+0-Nocredit	0-Nocredit			
+1-Fullcredit	1-Fullcredit			
+NA	NA			
+CM603Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM571Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM564Q01S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+CM564Q02S	Nominal	3		
+Fullcredit	Fullcredit			
+NA	NA			
+Nocredit	Nocredit			
+Independent				
+ST006Q04TA	Nominal	3		
+NA	NA			
+No	No			
+Yes	Yes			
+ST008Q04TA	Nominal	3		
+NA	NA			
+No	No			
+Yes	Yes			
+V1	Nominal	1		
+1	1			
+Syntax
+options
+   algorithm 
+      tolerance=1e-008 emtolerance=0,01 emiterations=5000 nriterations=5000;
+   startvalues
+      seed=0 sets=10 tolerance=1e-005 iterations=5000;
+   bayes
+      categorical=0 variances=0 latent=0 poisson=0;
+   montecarlo
+      seed=0 replicates=500 tolerance=1e-008;
+   quadrature  nodes=10;
+   missing  includeall;
+   output      
+      parameters=effect profile probmeans=posterior estimatedvalues=model;
+   outfile  '2_LC1.txt' classification;
+variables
+   caseweight b1;
+   dependent  CM033Q01S nominal, CM474Q01S nominal, CM155Q01S nominal, CM155Q04S nominal, CM411Q01S nominal, CM411Q02S nominal, 
+              CM803Q01S nominal, CM442Q02S nominal, DM462Q01C nominal, CM034Q01S nominal, CM305Q01S nominal, CM496Q01S nominal, 
+              CM496Q02S nominal, CM423Q01S nominal, DM406Q01C nominal, DM406Q02C nominal, CM603Q01S nominal, CM571Q01S nominal, 
+              CM564Q01S nominal, CM564Q02S nominal;
+   independent 
+             ST006Q04TA nominal, ST008Q04TA nominal, V1 nominal;
+   latent
+             theta ordinal 2 scores =(0 1);
+equations
+theta <- 1 + ST006Q04TA + ST008Q04TA;
+CM033Q01S <- 1 + theta;
+CM474Q01S <- 1 + theta;
+CM155Q01S <- 1 + theta;
+CM155Q04S <- 1 + theta;
+CM411Q01S <- 1 + theta;
+CM411Q02S <- 1 + theta;
+CM803Q01S <- 1 + theta;
+CM442Q02S <- 1 + theta;
+DM462Q01C <- 1 + theta;
+CM034Q01S <- 1 + theta;
+CM305Q01S <- 1 + theta;
+CM496Q01S <- 1 + theta;
+CM496Q02S <- 1 + theta;
+CM423Q01S <- 1 + theta;
+DM406Q01C <- 1 + theta;
+DM406Q02C <- 1 + theta;
+CM603Q01S <- 1 + theta;
+CM571Q01S <- 1 + theta;
+CM564Q01S <- 1 + theta;
+CM564Q02S <- 1 + theta;
+Parameters
+Regression Parameters	
+term	coef	s.e.	z-value	p-value	Wald(0)	df	p-value				
+theta(1)	<-	1	0.1233	.	.	.							
+theta(2)	<-	1	-0.1233	.	.	.							
+theta	<-	ST006Q04TA(NA)	0.0296	.	.	.							
+theta	<-	ST006Q04TA(No)	0.1880	.	.	.							
+theta	<-	ST006Q04TA(Yes)	-0.2176	.	.	.							
+theta	<-	ST008Q04TA(NA)	0.4803	.	.	.							
+theta	<-	ST008Q04TA(No)	-0.2640	.	.	.							
+theta	<-	ST008Q04TA(Yes)	-0.2163	.	.	.							
+													
+CM033Q01S(Fullcredit)	<-	1	80.3457	.	.	.							
+CM033Q01S(NA)	<-	1	-158.5479	.	.	.							
+CM033Q01S(Nocredit)	<-	1	78.2022	.	.	.							
+CM033Q01S(Fullcredit)	<-	theta	-79.3198	.	.	.							
+CM033Q01S(NA)	<-	theta	156.3126	.	.	.							
+CM033Q01S(Nocredit)	<-	theta	-76.9928	.	.	.							
+													
+CM474Q01S(Fullcredit)	<-	1	79.7328	.	.	.							
+CM474Q01S(NA)	<-	1	-158.8423	.	.	.							
+CM474Q01S(Nocredit)	<-	1	79.1095	.	.	.							
+CM474Q01S(Fullcredit)	<-	theta	-78.4927	.	.	.							
+CM474Q01S(NA)	<-	theta	156.6093	.	.	.							
+CM474Q01S(Nocredit)	<-	theta	-78.1166	.	.	.							
+													
+CM155Q01S(Fullcredit)	<-	1	79.9418	.	.	.							
+CM155Q01S(NA)	<-	1	-158.1205	.	.	.							
+CM155Q01S(Nocredit)	<-	1	78.1787	.	.	.							
+CM155Q01S(Fullcredit)	<-	theta	-79.5061	.	.	.							
+CM155Q01S(NA)	<-	theta	157.7712	.	.	.							
+CM155Q01S(Nocredit)	<-	theta	-78.2651	.	.	.							
+													
+CM155Q04S(Fullcredit)	<-	1	79.4129	.	.	.							
+CM155Q04S(NA)	<-	1	-158.8064	.	.	.							
+CM155Q04S(Nocredit)	<-	1	79.3935	.	.	.							
+CM155Q04S(Fullcredit)	<-	theta	-79.1570	.	.	.							
+CM155Q04S(NA)	<-	theta	157.9491	.	.	.							
+CM155Q04S(Nocredit)	<-	theta	-78.7920	.	.	.							
+													
+CM411Q01S(Fullcredit)	<-	1	79.9222	.	.	.							
+CM411Q01S(NA)	<-	1	-158.6238	.	.	.							
+CM411Q01S(Nocredit)	<-	1	78.7016	.	.	.							
+CM411Q01S(Fullcredit)	<-	theta	-80.1550	.	.	.							
+CM411Q01S(NA)	<-	theta	158.1112	.	.	.							
+CM411Q01S(Nocredit)	<-	theta	-77.9562	.	.	.							
+													
+CM411Q02S(Fullcredit)	<-	1	79.9337	.	.	.							
+CM411Q02S(NA)	<-	1	-158.7258	.	.	.							
+CM411Q02S(Nocredit)	<-	1	78.7921	.	.	.							
+CM411Q02S(Fullcredit)	<-	theta	-80.0075	.	.	.							
+CM411Q02S(NA)	<-	theta	157.4086	.	.	.							
+CM411Q02S(Nocredit)	<-	theta	-77.4010	.	.	.							
+													
+CM803Q01S(Fullcredit)	<-	1	79.4300	.	.	.							
+CM803Q01S(NA)	<-	1	-158.8742	.	.	.							
+CM803Q01S(Nocredit)	<-	1	79.4442	.	.	.							
+CM803Q01S(Fullcredit)	<-	theta	-124.5027	.	.	.							
+CM803Q01S(NA)	<-	theta	179.3853	.	.	.							
+CM803Q01S(Nocredit)	<-	theta	-54.8827	.	.	.							
+													
+CM442Q02S(Fullcredit)	<-	1	25.1166	.	.	.							
+CM442Q02S(NA)	<-	1	-50.4419	.	.	.							
+CM442Q02S(Nocredit)	<-	1	25.3253	.	.	.							
+CM442Q02S(Fullcredit)	<-	theta	-103.3104	.	.	.							
+CM442Q02S(NA)	<-	theta	88.9133	.	.	.							
+CM442Q02S(Nocredit)	<-	theta	14.3970	.	.	.							
+													
+DM462Q01C(01-Nocredit)	<-	1	1.7084	.	.	.							
+DM462Q01C(02-Nocredit)	<-	1	0.4059	.	.	.							
+DM462Q01C(12-Partialcredit)	<-	1	-0.3171	.	.	.							
+DM462Q01C(21-Fullcredit)	<-	1	-1.1644	.	.	.							
+DM462Q01C(NA)	<-	1	-0.6328	.	.	.							
+DM462Q01C(01-Nocredit)	<-	theta	69.2394	.	.	.							
+DM462Q01C(02-Nocredit)	<-	theta	69.4960	.	.	.							
+DM462Q01C(12-Partialcredit)	<-	theta	-43.7269	.	.	.							
+DM462Q01C(21-Fullcredit)	<-	theta	-165.7259	.	.	.							
+DM462Q01C(NA)	<-	theta	70.7173	.	.	.							
+													
+CM034Q01S(Fullcredit)	<-	1	79.6033	.	.	.							
+CM034Q01S(NA)	<-	1	-158.8164	.	.	.							
+CM034Q01S(Nocredit)	<-	1	79.2131	.	.	.							
+CM034Q01S(Fullcredit)	<-	theta	-79.8135	.	.	.							
+CM034Q01S(NA)	<-	theta	157.7151	.	.	.							
+CM034Q01S(Nocredit)	<-	theta	-77.9016	.	.	.							
+													
+CM305Q01S(Fullcredit)	<-	1	79.5318	.	.	.							
+CM305Q01S(NA)	<-	1	-158.8711	.	.	.							
+CM305Q01S(Nocredit)	<-	1	79.3393	.	.	.							
+CM305Q01S(Fullcredit)	<-	theta	-78.4819	.	.	.							
+CM305Q01S(NA)	<-	theta	156.6345	.	.	.							
+CM305Q01S(Nocredit)	<-	theta	-78.1527	.	.	.							
+													
+CM496Q01S(Fullcredit)	<-	1	79.7283	.	.	.							
+CM496Q01S(NA)	<-	1	-158.8058	.	.	.							
+CM496Q01S(Nocredit)	<-	1	79.0775	.	.	.							
+CM496Q01S(Fullcredit)	<-	theta	-79.8036	.	.	.							
+CM496Q01S(NA)	<-	theta	157.2576	.	.	.							
+CM496Q01S(Nocredit)	<-	theta	-77.4540	.	.	.							
+													
+CM496Q02S(Fullcredit)	<-	1	79.9430	.	.	.							
+CM496Q02S(NA)	<-	1	-158.4506	.	.	.							
+CM496Q02S(Nocredit)	<-	1	78.5076	.	.	.							
+CM496Q02S(Fullcredit)	<-	theta	-80.3219	.	.	.							
+CM496Q02S(NA)	<-	theta	158.0455	.	.	.							
+CM496Q02S(Nocredit)	<-	theta	-77.7236	.	.	.							
+													
+CM423Q01S(Fullcredit)	<-	1	80.0259	.	.	.							
+CM423Q01S(NA)	<-	1	-158.1219	.	.	.							
+CM423Q01S(Nocredit)	<-	1	78.0959	.	.	.							
+CM423Q01S(Fullcredit)	<-	theta	-78.9601	.	.	.							
+CM423Q01S(NA)	<-	theta	156.6785	.	.	.							
+CM423Q01S(Nocredit)	<-	theta	-77.7184	.	.	.							
+													
+DM406Q01C(0-Nocredit)	<-	1	1.3683	.	.	.							
+DM406Q01C(1-Fullcredit)	<-	1	-0.3116	.	.	.							
+DM406Q01C(NA)	<-	1	-1.0567	.	.	.							
+DM406Q01C(0-Nocredit)	<-	theta	0.1703	.	.	.							
+DM406Q01C(1-Fullcredit)	<-	theta	-1.9203	.	.	.							
+DM406Q01C(NA)	<-	theta	1.7499	.	.	.							
+													
+DM406Q02C(0-Nocredit)	<-	1	1.1490	.	.	.							
+DM406Q02C(1-Fullcredit)	<-	1	-0.5617	.	.	.							
+DM406Q02C(NA)	<-	1	-0.5873	.	.	.							
+DM406Q02C(0-Nocredit)	<-	theta	78.2537	.	.	.							
+DM406Q02C(1-Fullcredit)	<-	theta	-157.9731	.	.	.							
+DM406Q02C(NA)	<-	theta	79.7194	.	.	.							
+													
+CM603Q01S(Fullcredit)	<-	1	79.4207	.	.	.							
+CM603Q01S(NA)	<-	1	-158.7842	.	.	.							
+CM603Q01S(Nocredit)	<-	1	79.3635	.	.	.							
+CM603Q01S(Fullcredit)	<-	theta	-80.3454	.	.	.							
+CM603Q01S(NA)	<-	theta	158.2956	.	.	.							
+CM603Q01S(Nocredit)	<-	theta	-77.9502	.	.	.							
+													
+CM571Q01S(Fullcredit)	<-	1	1.3142	.	.	.							
+CM571Q01S(NA)	<-	1	-2.4703	.	.	.							
+CM571Q01S(Nocredit)	<-	1	1.1560	.	.	.							
+CM571Q01S(Fullcredit)	<-	theta	-1.6776	.	.	.							
+CM571Q01S(NA)	<-	theta	1.2612	.	.	.							
+CM571Q01S(Nocredit)	<-	theta	0.4164	.	.	.							
+													
+CM564Q01S(Fullcredit)	<-	1	79.5162	.	.	.							
+CM564Q01S(NA)	<-	1	-158.8373	.	.	.							
+CM564Q01S(Nocredit)	<-	1	79.3211	.	.	.							
+CM564Q01S(Fullcredit)	<-	theta	-79.0038	.	.	.							
+CM564Q01S(NA)	<-	theta	157.3713	.	.	.							
+CM564Q01S(Nocredit)	<-	theta	-78.3675	.	.	.							
+													
+CM564Q02S(Fullcredit)	<-	1	79.5674	.	.	.							
+CM564Q02S(NA)	<-	1	-158.8683	.	.	.							
+CM564Q02S(Nocredit)	<-	1	79.3009	.	.	.							
+CM564Q02S(Fullcredit)	<-	theta	-78.8544	.	.	.							
+CM564Q02S(NA)	<-	theta	156.6777	.	.	.							
+CM564Q02S(Nocredit)	<-	theta	-77.8233	.	.	.							
+Profile
+ 	theta	 	 	 	 	 	
+ 	1	s.e.	2	s.e.	Overall	s.e.	
+Size	0.5857	.	0.4143	.	 	 	
+CM033Q01S	 	
+Fullcredit	0.8951	.	0.4465	.	0.7092	.	
+NA	0.0000	.	0.0171	.	0.0071	.	
+Nocredit	0.1049	.	0.5364	.	0.2837	.	
+CM474Q01S	 	
+Fullcredit	0.6510	.	0.5519	.	0.6099	.	
+NA	0.0000	.	0.0171	.	0.0071	.	
+Nocredit	0.3490	.	0.4310	.	0.3830	.	
+CM155Q01S	 	
+Fullcredit	0.8536	.	0.4880	.	0.7021	.	
+NA	0.0000	.	0.2225	.	0.0922	.	
+Nocredit	0.1464	.	0.2895	.	0.2057	.	
+CM155Q04S	 	
+Fullcredit	0.5048	.	0.3648	.	0.4468	.	
+NA	0.0000	.	0.1198	.	0.0496	.	
+Nocredit	0.4952	.	0.5154	.	0.5035	.	
+CM411Q01S	 	
+Fullcredit	0.7722	.	0.2265	.	0.5461	.	
+NA	0.0000	.	0.1712	.	0.0709	.	
+Nocredit	0.2278	.	0.6023	.	0.3830	.	
+CM411Q02S	 	
+Fullcredit	0.7580	.	0.1781	.	0.5177	.	
+NA	0.0000	.	0.0514	.	0.0213	.	
+Nocredit	0.2420	.	0.7706	.	0.4610	.	
+CM803Q01S	 	
+Fullcredit	0.4965	.	0.0000	.	0.2908	.	
+NA	0.0000	.	0.0171	.	0.0071	.	
+Nocredit	0.5035	.	0.9829	.	0.7021	.	
+CM442Q02S	 	
+Fullcredit	0.4480	.	0.0000	.	0.2624	.	
+NA	0.0000	.	0.2225	.	0.0922	.	
+Nocredit	0.5520	.	0.7775	.	0.6454	.	
+DM462Q01C	 	
+01-Nocredit	0.6424	.	0.5640	.	0.6099	.	
+02-Nocredit	0.1747	.	0.1982	.	0.1844	.	
+12-Partialcredit	0.0848	.	0.0000	.	0.0496	.	
+21-Fullcredit	0.0363	.	0.0000	.	0.0213	.	
+NA	0.0618	.	0.2379	.	0.1348	.	
+CM034Q01S	 	
+Fullcredit	0.5963	.	0.1669	.	0.4184	.	
+NA	0.0000	.	0.0685	.	0.0284	.	
+Nocredit	0.4037	.	0.7646	.	0.5532	.	
+CM305Q01S	 	
+Fullcredit	0.5480	.	0.4579	.	0.5106	.	
+NA	0.0000	.	0.0171	.	0.0071	.	
+Nocredit	0.4520	.	0.5250	.	0.4823	.	
+CM496Q01S	 	
+Fullcredit	0.6572	.	0.1493	.	0.4468	.	
+NA	0.0000	.	0.0342	.	0.0142	.	
+Nocredit	0.3428	.	0.8164	.	0.5390	.	
+CM496Q02S	 	
+Fullcredit	0.8078	.	0.1933	.	0.5532	.	
+NA	0.0000	.	0.1883	.	0.0780	.	
+Nocredit	0.1922	.	0.6184	.	0.3688	.	
+CM423Q01S	 	
+Fullcredit	0.8732	.	0.6314	.	0.7730	.	
+NA	0.0000	.	0.0514	.	0.0213	.	
+Nocredit	0.1268	.	0.3172	.	0.2057	.	
+DM406Q01C	 	
+0-Nocredit	0.7844	.	0.6885	.	0.7447	.	
+1-Fullcredit	0.1462	.	0.0159	.	0.0922	.	
+NA	0.0694	.	0.2956	.	0.1631	.	
+DM406Q02C	 	
+0-Nocredit	0.7370	.	0.5673	.	0.6667	.	
+1-Fullcredit	0.1332	.	0.0000	.	0.0780	.	
+NA	0.1298	.	0.4327	.	0.2553	.	
+CM603Q01S	 	
+Fullcredit	0.5143	.	0.0775	.	0.3333	.	
+NA	0.0000	.	0.1198	.	0.0496	.	
+Nocredit	0.4857	.	0.8027	.	0.6170	.	
+CM571Q01S	 	
+Fullcredit	0.5329	.	0.1196	.	0.3617	.	
+NA	0.0121	.	0.0514	.	0.0284	.	
+Nocredit	0.4550	.	0.8290	.	0.6099	.	
+CM564Q01S	 	
+Fullcredit	0.5486	.	0.3714	.	0.4752	.	
+NA	0.0000	.	0.0514	.	0.0213	.	
+Nocredit	0.4514	.	0.5773	.	0.5035	.	
+CM564Q02S	 	
+Fullcredit	0.5662	.	0.3122	.	0.4610	.	
+NA	0.0000	.	0.0171	.	0.0071	.	
+Nocredit	0.4338	.	0.6707	.	0.5319	.	
+ProbMeans-Posterior
+	theta		
+	1	2	
+Overall	0.5857	0.4143	
+Dependent			
+CM033Q01S			
+Fullcredit	0.7392	0.2608	
+NA	0.0000	1.0000	
+Nocredit	0.2167	0.7833	
+CM474Q01S			
+Fullcredit	0.6251	0.3749	
+NA	0.0000	1.0000	
+Nocredit	0.5338	0.4662	
+CM155Q01S			
+Fullcredit	0.7121	0.2879	
+NA	0.0000	1.0000	
+Nocredit	0.4169	0.5831	
+CM155Q04S			
+Fullcredit	0.6618	0.3382	
+NA	0.0000	1.0000	
+Nocredit	0.5760	0.4240	
+CM411Q01S			
+Fullcredit	0.8282	0.1718	
+NA	0.0000	1.0000	
+Nocredit	0.3484	0.6516	
+CM411Q02S			
+Fullcredit	0.8575	0.1425	
+NA	0.0000	1.0000	
+Nocredit	0.3075	0.6925	
+CM803Q01S			
+Fullcredit	1.0000	0.0000	
+NA	0.0000	1.0000	
+Nocredit	0.4201	0.5799	
+CM442Q02S			
+Fullcredit	1.0000	0.0000	
+NA	0.0000	1.0000	
+Nocredit	0.5009	0.4991	
+DM462Q01C			
+01-Nocredit	0.6169	0.3831	
+02-Nocredit	0.5548	0.4452	
+12-Partialcredit	1.0000	0.0000	
+21-Fullcredit	1.0000	0.0000	
+NA	0.2687	0.7313	
+CM034Q01S			
+Fullcredit	0.8347	0.1653	
+NA	0.0000	1.0000	
+Nocredit	0.4274	0.5726	
+CM305Q01S			
+Fullcredit	0.6285	0.3715	
+NA	0.0000	1.0000	
+Nocredit	0.5490	0.4510	
+CM496Q01S			
+Fullcredit	0.8615	0.1385	
+NA	0.0000	1.0000	
+Nocredit	0.3725	0.6275	
+CM496Q02S			
+Fullcredit	0.8552	0.1448	
+NA	0.0000	1.0000	
+Nocredit	0.3053	0.6947	
+CM423Q01S			
+Fullcredit	0.6616	0.3384	
+NA	0.0000	1.0000	
+Nocredit	0.3610	0.6390	
+DM406Q01C			
+0-Nocredit	0.6170	0.3830	
+1-Fullcredit	0.9287	0.0713	
+NA	0.2492	0.7508	
+DM406Q02C			
+0-Nocredit	0.6475	0.3525	
+1-Fullcredit	1.0000	0.0000	
+NA	0.2978	0.7022	
+CM603Q01S			
+Fullcredit	0.9037	0.0963	
+NA	0.0000	1.0000	
+Nocredit	0.4611	0.5389	
+CM571Q01S			
+Fullcredit	0.8630	0.1370	
+NA	0.2500	0.7500	
+Nocredit	0.4369	0.5631	
+CM564Q01S			
+Fullcredit	0.6762	0.3238	
+NA	0.0000	1.0000	
+Nocredit	0.5250	0.4750	
+CM564Q02S			
+Fullcredit	0.7194	0.2806	
+NA	0.0000	1.0000	
+Nocredit	0.4776	0.5224	
+Independent			
+ST006Q04TA			
+NA	0.4750	0.5250	
+No	0.5473	0.4527	
+Yes	0.6450	0.3550	
+ST008Q04TA			
+NA	0.4412	0.5588	
+No	0.6184	0.3816	
+Yes	0.6342	0.3658	
+V1			
+1	0.5857	0.4143	
+EstimatedValues-Model
+ 	 	theta	
+ST006Q04TA	ST008Q04TA	1	s.e.	2	s.e.	 	 	 	 	 	 	
+NA	NA	0.4345	0.0000	0.5655	0.0000	 	 	 	 	 	 	
+NA	Yes	0.6067	0.0000	0.3933	0.0000	 	 	 	 	 	 	
+No	NA	0.3961	0.0000	0.6039	0.0000	 	 	 	 	 	 	
+No	No	0.5799	0.0000	0.4201	0.0000	 	 	 	 	 	 	
+No	Yes	0.5683	0.0000	0.4317	0.0000	 	 	 	 	 	 	
+Yes	NA	0.4960	0.0000	0.5040	0.0000	 	 	 	 	 	 	
+Yes	No	0.6744	0.0000	0.3256	0.0000	 	 	 	 	 	 	
+Yes	Yes	0.6638	0.0000	0.3362	0.0000	 	 	 	 	 	 	
+	
+ 	 	CM033Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.8951	0.0000	0.0000	0.0000	0.1049	0.0000	 	 	 	 	
+ 	2	0.4465	0.0000	0.0171	0.0000	0.5364	0.0000	 	 	 	 	
+	
+ 	 	CM474Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.6510	0.0000	0.0000	0.0000	0.3490	0.0000	 	 	 	 	
+ 	2	0.5519	0.0000	0.0171	0.0000	0.4310	0.0000	 	 	 	 	
+	
+ 	 	CM155Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.8536	0.0000	0.0000	0.0000	0.1464	0.0000	 	 	 	 	
+ 	2	0.4880	0.0000	0.2225	0.0000	0.2895	0.0000	 	 	 	 	
+	
+ 	 	CM155Q04S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5048	0.0000	0.0000	0.0000	0.4952	0.0000	 	 	 	 	
+ 	2	0.3648	0.0000	0.1198	0.0000	0.5154	0.0000	 	 	 	 	
+	
+ 	 	CM411Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.7722	0.0000	0.0000	0.0000	0.2278	0.0000	 	 	 	 	
+ 	2	0.2265	0.0000	0.1712	0.0000	0.6023	0.0000	 	 	 	 	
+	
+ 	 	CM411Q02S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.7580	0.0000	0.0000	0.0000	0.2420	0.0000	 	 	 	 	
+ 	2	0.1781	0.0000	0.0514	0.0000	0.7706	0.0000	 	 	 	 	
+	
+ 	 	CM803Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.4965	0.0000	0.0000	0.0000	0.5035	0.0000	 	 	 	 	
+ 	2	0.0000	0.0000	0.0171	0.0000	0.9829	0.0000	 	 	 	 	
+	
+ 	 	CM442Q02S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.4480	0.0000	0.0000	0.0000	0.5520	0.0000	 	 	 	 	
+ 	2	0.0000	0.0000	0.2225	0.0000	0.7775	0.0000	 	 	 	 	
+	
+ 	 	DM462Q01C	
+ 	theta	01-Nocredit	s.e.	02-Nocredit	s.e.	12-Partialcredit	s.e.	21-Fullcredit	s.e.	NA	s.e.	
+ 	1	0.6424	0.0000	0.1747	0.0000	0.0848	0.0000	0.0363	0.0000	0.0618	0.0000	
+ 	2	0.5640	0.0000	0.1982	0.0000	0.0000	0.0000	0.0000	0.0000	0.2379	0.0000	
+	
+ 	 	CM034Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5963	0.0000	0.0000	0.0000	0.4037	0.0000	 	 	 	 	
+ 	2	0.1669	0.0000	0.0685	0.0000	0.7646	0.0000	 	 	 	 	
+	
+ 	 	CM305Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5480	0.0000	0.0000	0.0000	0.4520	0.0000	 	 	 	 	
+ 	2	0.4579	0.0000	0.0171	0.0000	0.5250	0.0000	 	 	 	 	
+	
+ 	 	CM496Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.6572	0.0000	0.0000	0.0000	0.3428	0.0000	 	 	 	 	
+ 	2	0.1493	0.0000	0.0342	0.0000	0.8164	0.0000	 	 	 	 	
+	
+ 	 	CM496Q02S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.8078	0.0000	0.0000	0.0000	0.1922	0.0000	 	 	 	 	
+ 	2	0.1933	0.0000	0.1883	0.0000	0.6184	0.0000	 	 	 	 	
+	
+ 	 	CM423Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.8732	0.0000	0.0000	0.0000	0.1268	0.0000	 	 	 	 	
+ 	2	0.6314	0.0000	0.0514	0.0000	0.3172	0.0000	 	 	 	 	
+	
+ 	 	DM406Q01C	
+ 	theta	0-Nocredit	s.e.	1-Fullcredit	s.e.	NA	s.e.	 	 	 	 	
+ 	1	0.7844	0.0000	0.1462	0.0000	0.0694	0.0000	 	 	 	 	
+ 	2	0.6885	0.0000	0.0159	0.0000	0.2956	0.0000	 	 	 	 	
+	
+ 	 	DM406Q02C	
+ 	theta	0-Nocredit	s.e.	1-Fullcredit	s.e.	NA	s.e.	 	 	 	 	
+ 	1	0.7370	0.0000	0.1332	0.0000	0.1298	0.0000	 	 	 	 	
+ 	2	0.5673	0.0000	0.0000	0.0000	0.4327	0.0000	 	 	 	 	
+	
+ 	 	CM603Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5143	0.0000	0.0000	0.0000	0.4857	0.0000	 	 	 	 	
+ 	2	0.0775	0.0000	0.1198	0.0000	0.8027	0.0000	 	 	 	 	
+	
+ 	 	CM571Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5329	0.0000	0.0121	0.0000	0.4550	0.0000	 	 	 	 	
+ 	2	0.1196	0.0000	0.0514	0.0000	0.8290	0.0000	 	 	 	 	
+	
+ 	 	CM564Q01S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5486	0.0000	0.0000	0.0000	0.4514	0.0000	 	 	 	 	
+ 	2	0.3714	0.0000	0.0514	0.0000	0.5773	0.0000	 	 	 	 	
+	
+ 	 	CM564Q02S	
+ 	theta	Fullcredit	s.e.	NA	s.e.	Nocredit	s.e.	 	 	 	 	
+ 	1	0.5662	0.0000	0.0000	0.0000	0.4338	0.0000	 	 	 	 	
+ 	2	0.3122	0.0000	0.0171	0.0000	0.6707	0.0000	 	 	 	 	
+Syntax
+options
+   algorithm 
+      tolerance=1e-008 emtolerance=0,01 emiterations=5000 nriterations=5000;
+   startvalues
+      seed=0 sets=10 tolerance=1e-005 iterations=5000;
+   bayes
+      categorical=0 variances=0 latent=0 poisson=0;
+   montecarlo
+      seed=0 replicates=500 tolerance=1e-008;
+   quadrature  nodes=10;
+   missing  includeall;
+   output      
+      parameters=effect profile probmeans=posterior estimatedvalues=model;
+   outfile  '2_LC1.txt' classification;
+variables
+   caseweight b1;
+   dependent  CM033Q01S nominal, CM474Q01S nominal, CM155Q01S nominal, CM155Q04S nominal, CM411Q01S nominal, CM411Q02S nominal, 
+              CM803Q01S nominal, CM442Q02S nominal, DM462Q01C nominal, CM034Q01S nominal, CM305Q01S nominal, CM496Q01S nominal, 
+              CM496Q02S nominal, CM423Q01S nominal, DM406Q01C nominal, DM406Q02C nominal, CM603Q01S nominal, CM571Q01S nominal, 
+              CM564Q01S nominal, CM564Q02S nominal;
+   independent 
+             ST006Q04TA nominal, ST008Q04TA nominal, V1 nominal;
+   latent
+             theta ordinal 2 scores =(0 1);
+equations
+theta <- 1 + ST006Q04TA + ST008Q04TA;
+CM033Q01S <- 1 + theta;
+CM474Q01S <- 1 + theta;
+CM155Q01S <- 1 + theta;
+CM155Q04S <- 1 + theta;
+CM411Q01S <- 1 + theta;
+CM411Q02S <- 1 + theta;
+CM803Q01S <- 1 + theta;
+CM442Q02S <- 1 + theta;
+DM462Q01C <- 1 + theta;
+CM034Q01S <- 1 + theta;
+CM305Q01S <- 1 + theta;
+CM496Q01S <- 1 + theta;
+CM496Q02S <- 1 + theta;
+CM423Q01S <- 1 + theta;
+DM406Q01C <- 1 + theta;
+DM406Q02C <- 1 + theta;
+CM603Q01S <- 1 + theta;
+CM571Q01S <- 1 + theta;
+CM564Q01S <- 1 + theta;
+CM564Q02S <- 1 + theta;
