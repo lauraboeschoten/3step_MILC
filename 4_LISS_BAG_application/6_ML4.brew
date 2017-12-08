@@ -1,0 +1,32 @@
+  //LG5.0//
+ version = 5.0  
+
+ infile '4_imputations.txt' 
+ model  
+title 'latent class multiple imputation 3 step ML';
+
+options
+   algorithm 
+      tolerance=1e-008 emtolerance=0,01 emiterations=250 nriterations=500;
+   startvalues
+      seed=0 sets=10 tolerance=1e-005 iterations=50;
+   bayes
+      categorical=0 variances=0 latent=0 poisson=0;
+   montecarlo
+      seed=0 replicates=500 tolerance=1e-008;
+   quadrature  nodes=10;
+   missing  includeall;
+   output      
+      parameters=last standarderrors probmeans=posterior estimatedvalues=model;
+   outfile '6_ML4.txt' classification;
+variables
+   dependent i4 nominal, burgstat nominal;
+   latent
+      x nominal 2, lburg 2 nominal;
+equations
+   i4 <- (a~wei)x;
+   burgstat <- (b~wei)lburg;
+   lburg <- 1 + x;
+   a={0.9742938 0.02570619 0.012251459 0.9877485};
+   b={1 0 0 1};
+end model
